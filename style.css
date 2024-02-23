@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./NewJeansPowerpuffGirlsMV.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(120px);
+  backdrop-filter: blur(25px);
+  width: 45%;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-weight: 900;
+}
+
+span {
+  font-size: 35px;
+  color: #ff407d;
+}
+
+#person-one {
+  color: #3eb489;
+  font-size: 22px;
+}
+
+#person-two {
+  color: #0d98ba;
+  font-size: 22px;
+}
+
+#person-three {
+  color: #0d98ba;
+  font-size: 22px;
+}
+
+#person-four {
+  color: #ffff00;
+  font-size: 22px;
+}
+
+#person-five {
+  color: #0000ff;
+  font-size: 22px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  text-shadow: 2px 2px 8px black;
+  transform: translateY(70px);
+}
+
+#text {
+  font-size: 50px;
+  color: #ee99c2;
+}
